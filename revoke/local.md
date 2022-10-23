@@ -8,4 +8,4 @@
 
 # 撤销本地的修改
 - `git status`：先查看本地提交的文件，方便下一步撤销
-- `git checkout/restore <change_file>`：撤销本地指定文件的修改
+- `git checkout/restore --staged <change_file>`：撤销本地指定文件的修改（有些版本不能用 checkout）
